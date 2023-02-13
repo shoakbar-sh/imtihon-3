@@ -1,0 +1,86 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.btn{
+   background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+}
+
+.font{
+   font-size: 30px;
+}
+
+.put{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%) 
+}
+
+header{
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.next{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+
+   &:active{
+      background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+   }
+}
+
+.prev{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+
+   &:active{
+      background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+   }
+}
+
+.corusel_list{
+   transition: all 0.5s ease;
+}
+
+.slayd_list{
+   transition: all 0.5s ease;
+}
+
+.on{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+
+   &:active{
+      background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+   }
+}
+
+.chap{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+
+   &:active{
+      background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+   }
+}
+
+
+.baner_list{
+   transition: all 0.5s ease;
+}
+
+.rayt{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+
+   &:active{
+      background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+   }
+}
+
+.left{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+
+   &:active{
+      background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+   }
+}
+
+footer{
+   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
