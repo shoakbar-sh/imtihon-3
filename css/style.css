@@ -90,9 +90,16 @@ footer {
   background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 }
 
+.none {
+  display: none;
+}
+
 @media only screen and (max-width: 360px) {
   .conteiner {
     max-width: 360px;
+  }
+  .header {
+    width: 359px;
   }
   .bosh {
     display: none;
@@ -106,7 +113,7 @@ footer {
     margin-left: -150px;
   }
   nav .logo {
-    padding-top: 0;
+    padding-top: -150px;
     margin-left: 50px;
   }
   nav .heart {
@@ -122,5 +129,161 @@ footer {
     margin-left: -140px;
     width: 320px;
     height: 46px;
+  }
+  .put {
+    display: none;
+  }
+  .corusel {
+    width: 320px;
+    margin-left: -140px;
+  }
+  .corusel-item {
+    width: 320px;
+    height: 180px;
+  }
+  .corusel .item {
+    display: none;
+  }
+  .next {
+    display: none;
+  }
+  .prev {
+    display: none;
+  }
+  .kate {
+    display: none;
+  }
+  .vse {
+    display: inline;
+  }
+  .sec {
+    margin-top: 5px;
+  }
+  .tel {
+    margin-left: -140px;
+    width: 150px;
+    height: 200px;
+  }
+  .num {
+    margin-left: 44px;
+    margin-top: -200px;
+  }
+  .fil {
+    width: 320px;
+    margin-left: -140px;
+  }
+  .eng {
+    font-size: 16px;
+    margin-left: -140px;
+  }
+  .pc {
+    display: none;
+  }
+  .comp {
+    height: 410px;
+    margin-left: -150px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  .comp p {
+    width: 197px;
+    font-size: 13px;
+  }
+  .comp img {
+    margin-left: -10px;
+    width: 180px;
+    height: 130px;
+  }
+  .comp span {
+    display: none;
+  }
+  .footer {
+    height: 1560px;
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+  }
+  .foot {
+    display: inline;
+  }
+  .foot .end {
+    margin-left: 20px;
+  }
+  .foot .ent {
+    margin-left: 20px;
+  }
+  .com {
+    margin-left: 20px;
+  }
+  .com img {
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  .com hr {
+    width: 320px;
+  }
+  .com p {
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+  .com .by {
+    display: none;
+  }
+  .sofa {
+    display: none;
+  }
+  .kor {
+    display: none;
+  }
+  .oma {
+    display: none;
+  }
+  .brand {
+    display: inline;
+  }
+  .dokon {
+    display: inline;
+  }
+  .rend {
+    width: 150px;
+    height: 90px;
+    margin-left: -134px;
+  }
+  .rend img {
+    margin-left: -10px;
+    margin-top: -9px;
+  }
+  .big {
+    width: 150px;
+    height: 90px;
+    margin-left: 35px;
+    margin-top: -90px;
+  }
+  .big img {
+    margin-left: -10px;
+    margin-top: -9px;
+  }
+  .oq {
+    display: none;
+  }
+  .makon {
+    width: 150px;
+    height: 90px;
+    margin-left: -134px;
+  }
+  .makon img {
+    margin-left: -10px;
+    margin-top: -9px;
+  }
+  .mark {
+    width: 150px;
+    height: 90px;
+    margin-left: 35px;
+    margin-top: -90px;
+  }
+  .mark img {
+    margin-left: -10px;
+    margin-top: -9px;
+  }
+  .pow {
+    width: 320px;
   }
 }/*# sourceMappingURL=style.css.map */
