@@ -4,88 +4,343 @@
    box-sizing: border-box;
 }
 
-.btn{
+.btn {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 
-   &:active{
+   &:active {
       background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
       color: white;
    }
 }
 
-.font{
+.font {
    font-size: 30px;
 }
 
-header{
+header {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.next{
+.next {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 
-   &:active{
+   &:active {
       background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
    }
 }
 
-.prev{
+.prev {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 
-   &:active{
+   &:active {
       background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
    }
 }
 
-.corusel_list{
+.corusel_list {
    transition: all 0.5s ease;
 }
 
-.slayd_list{
+.slayd_list {
    transition: all 0.5s ease;
 }
 
-.on{
+.on {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 
-   &:active{
+   &:active {
       background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
    }
 }
 
-.chap{
+.chap {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 
-   &:active{
+   &:active {
       background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
    }
 }
 
 
-.baner_list{
+.baner_list {
    transition: all 0.5s ease;
 }
 
-.rayt{
+.rayt {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 
-   &:active{
+   &:active {
       background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
    }
 }
 
-.left{
+.left {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
 
-   &:active{
+   &:active {
       background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
    }
 }
 
-.burger{
+.burger {
    display: none;
 }
 
-footer{
+footer {
    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+
+
+@media only screen and (max-width: 360px) {
+   .conteiner {
+      max-width: 360px;
+   }
+
+   .header {
+      width: 360px;
+   }
+
+   .bosh {
+      display: none;
+   }
+
+   nav {
+      button {
+         display: none;
+      }
+
+      .burger {
+         margin-right: 30px;
+         display: block;
+         margin-left: -150px;
+      }
+
+      .logo {
+         padding-top: -150px;
+         margin-left: 50px;
+      }
+
+      .heart {
+         display: none;
+      }
+
+      .lupa {
+         margin-left: 120px;
+         margin-top: 37px;
+      }
+
+      .input {
+         position: absolute;
+         margin-top: 37px;
+         margin-left: -140px;
+         width: 320px;
+         height: 46px;
+      }
+   }
+
+   .put {
+      display: none;
+   }
+
+   .corusel {
+      width: 320px;
+      margin-left: -140px;
+
+      &-item {
+         width: 320px;
+         height: 180px;
+      }
+
+      .item {
+         display: none;
+      }
+   }
+
+   .next {
+      display: none;
+   }
+
+   .prev {
+      display: none;
+   }
+
+
+   .footer {
+      height: 1565px;
+      background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+   }
+
+   .foot {
+      display: inline;
+
+      .end {
+         margin-left: 20px;
+         font-size: 18px;
+      }
+
+      .ent {
+         margin-left: 20px;
+      }
+   }
+
+   .com {
+      margin-left: 20px;
+
+      img {
+         margin-top: 80px;
+         margin-left: 10px;
+      }
+
+      hr {
+         width: 320px;
+      }
+
+      p {
+         margin-left: 80px;
+         margin-bottom: 20px;
+      }
+
+      .by {
+         display: none;
+      }
+   }
+
+   .oq {
+      display: none;
+   }
+
+   .pow {
+      width: 320px;
+   }
+
+   .end {
+      margin-top: -30px;
+      margin-bottom: 50px;
+      font-size: 10px;
+      margin-left: -140px;
+   }
+
+   .comp {
+      display: inline;
+   }
+
+   .mart {
+      margin-top: 20px;
+      width: 150px;
+      height: 242px;
+      margin-left: -140px;
+
+      img {
+         margin-left: 0;
+      }
+
+      p {
+         font-size: 14px;
+         width: 135px;
+         margin-left: 10px;
+         margin-top: 10px;
+      }
+   }
+
+   .mark {
+      width: 150px;
+      height: 242px;
+      margin-left: 34px;
+      margin-top: -242px;
+
+      img {
+         margin-left: 10px;
+         width: 136px;
+         height: 120px;
+
+      }
+
+      .lap {
+         width: 99px;
+         margin-left: 27px;
+      }
+
+      p {
+         margin-top: 9px;
+         font-size: 14px;
+      }
+   }
+
+   .mard {
+      width: 150px;
+      height: 242px;
+      margin-left: 34px;
+      margin-top: -242px;
+
+      img {
+         margin-left: 10px;
+         width: 136px;
+         height: 120px;
+      }
+
+      .mak {
+         margin-left: -27px;
+         margin-bottom: 30px;
+      }
+
+      p {
+         font-size: 14px;
+      }
+   }
+
+   .made {
+      width: 150px;
+      height: 242px;
+      margin-left: 34px;
+      margin-top: -242px;
+
+      img {
+         margin-left: 10px;
+         width: 136px;
+         height: 120px;
+      }
+
+      .make {
+         margin-left: -27px;
+         margin-bottom: -11px;
+      }
+
+      p {
+         font-size: 14px;
+      }
+   }
+
+   .male {
+      margin-left: 27px;
+      width: 99px;
+      margin-bottom: -15px;
+   }
+
+   .fil {
+      height: 410px;
+      margin-left: -150px;
+      overflow-y: scroll;
+      padding: 10px;
+
+      p {
+         width: 197px;
+         font-size: 13px;
+      }
+
+      img {
+         margin-left: -10px;
+         width: 180px;
+         height: 130px;
+      }
+
+      span {
+         display: none;
+      }
+   }
+
+   .kop{
+      font-size: 16px;
+      margin-left: -140px;
+   }
+
 }

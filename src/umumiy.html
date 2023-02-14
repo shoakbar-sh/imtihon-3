@@ -14,9 +14,9 @@
 <body>
 
    <div class="conteiner w-[1600px] m-auto bg-blue-50">
-      <header class="bg-white fixed h-24 w-[1600px]">
+      <header class="header bg-white fixed h-24 w-[1600px]">
          <div class="">
-            <div class="flex ml-[1020px]">
+            <div class="bosh flex ml-[1020px]">
                <img src="./images/Vector.svg" alt="">
                <span class="ml-2 ">Aloqa uchun</span>
                <select aria-label="Изменить язык отображения" class="_aajm ml-56">
@@ -26,7 +26,10 @@
                </select>
             </div>
             <nav class="pt-4 ml-36 flex">
-               <picture class="">
+               <span class="burger">
+                  <i class='bx bx-menu'></i>
+               </span>
+               <picture class="logo">
                   <source media="(max-width:375px)" srcset="./images/Logo@2x.svg">
                   <source media="(max-width:768px)" srcset="./images/Logo.svg">
                   <img src="./images/Logo.svg" alt="img">
@@ -38,35 +41,35 @@
                </button>
 
                <input type="search" placeholder="Maxsulotlarni izlash"
-                  class="ml-12 border rounded-lg h-11 w-[396px] pl-[18px]">
+                  class="input ml-12 border rounded-lg h-11 w-[396px] pl-[18px]">
 
-               <span class="bg-blue-600 absolute ml-[748px] w-[64px] h-[46px] mt-[1px] text-center rounded-r-lg pt-3">
+               <span class="lupa bg-blue-600 absolute ml-[748px] w-[64px] h-[46px] mt-[1px] text-center rounded-r-lg pt-3">
                   <i class='bx bx-search-alt-2' style='color:rgba(255, 255, 255, 0.989)'></i>
                </span>
 
-               <span class="ml-20 p-[12px] pb-1 rounded-lg">
+               <span class="heart ml-20 p-[12px] pb-1 rounded-lg">
                   <i class='bx bx-heart font text-blue-600 '></i>
                </span>
 
-               <span class="ml-16 p-[12px] pb-1 rounded-lg">
+               <span class="heart ml-16 p-[12px] pb-1 rounded-lg">
                   <i class='bx bx-cart font text-blue-600'></i>
                </span>
 
-               <span class="ml-[115px] p-[8px]">
+               <span class="heart ml-[115px] p-[8px]">
                   <img src="./images/user.svg" alt="user" class="rounded-3xl">
                </span>
             </nav>
          </div>
       </header>
 
-      <main class="pt-32 ml-[160px]">
+      <main class="main pt-32 ml-[160px]">
          <div class="corusel flex overflow-x-hidden w-[1230px]">
             <div class="corusel_list flex ">
                <img src="./images/Frame2@2x.png" alt="" class="corusel-item">
-               <img src="./images/Frame2@2x.png" alt="" class="corusel-item">
-               <img src="./images/Frame2@2x.png" alt="" class="corusel-item">
-               <img src="./images/Frame2@2x.png" alt="" class="corusel-item">
-               <img src="./images/Frame2@2x.png" alt="" class="corusel-item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
             </div>
          </div>
          <span class="prev absolute w-11 h-11 mt-[-210px] ml-[-70px] rounded-3xl py-1 px-[12px] text-[25px]">
@@ -78,11 +81,11 @@
       </main>
 
       <section class="mt-[56px] ml-[160px]">
-         <h2><span class="text-gray-500">Nextstore /</span>
+         <h2 class="end"><span class=" text-gray-500">Nextstore /</span>
          <span>Kompyuterlar va notebooklar</span></h2>
          
-         <div class="gap-[20px] flex">
-            <div class="card pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
+         <div class="comp gap-[20px] flex">
+            <div class="mart card pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/keys@2x.png">
                   <source media="(max-width:768px)" srcset="./images/keys.png">
@@ -92,17 +95,17 @@
                <p class="text-[16px] text-gray-500">232 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
+            <div class="card mark pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/noutbook@2x.png">
                   <source media="(max-width:768px)" srcset="./images/noutbook.png">
                   <img src="./images/noutbook.png" alt="img" class="ml-9 w-[208px] h-[168px]">
                </picture>
-               <p class="text-[16px] w-[219px] mt-2 ml-[37px]">Laptop Notebooklar</p>
+               <p class="lap text-[16px] w-[219px] mt-2 ml-[37px]">Laptop Notebooklar</p>
                <p class="text-[16px] mt-6 text-gray-500">1234 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
+            <div class="card mart pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/monitor@2x.png">
                   <source media="(max-width:768px)" srcset="./images/monitor.png">
@@ -112,20 +115,20 @@
                <p class="text-[16px] text-gray-500">654 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
+            <div class="card mard pt-5 text-center rounded-[10px] mt-10 bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/rb600@2x.png">
                   <source media="(max-width:768px)" srcset="./images/rb600.png">
                   <img src="./images/rb600.png" alt="img" class="ml-8">
                </picture>
-               <p class="text-[16px] w-[219px] mt-2 ml-[37px]">Quloqchinlar
+               <p class="mak text-[16px] w-[219px] mt-2 ml-[37px]">Quloqchinlar
                </p>
                <p class="text-[16px] mt-5 text-gray-500">321 ta maxsulot</p>
             </div>
          </div>
 
-         <div class="flex gap-[20px] mt-5">
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+         <div class="comp flex gap-[20px] mt-5">
+            <div class="card mart pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/mouse@2x.png">
                   <source media="(max-width:768px)" srcset="./images/mouse.png">
@@ -135,17 +138,17 @@
                <p class="text-[16px] mt-5 text-gray-500">352 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="card made pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/aksesuar@2x.png">
                   <source media="(max-width:768px)" srcset="./images/aksesuar.png">
                   <img src="./images/aksesuar.png" alt="img" class="ml-9">
                </picture>
-               <p class="text-[16px] w-[219px] mt-2 ml-[37px]">Aksesuarlar</p>
+               <p class="make text-[16px] w-[219px] mt-2 ml-[37px]">Aksesuarlar</p>
                <p class="text-[16px] mt-5 text-gray-500">2453 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="mart card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/kovrik@2x.png">
                   <source media="(max-width:768px)" srcset="./images/kovrik.png">
@@ -156,20 +159,20 @@
                <p class="text-[16px] mt-5 text-gray-500">231 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="made pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/karta@2x.png">
                   <source media="(max-width:768px)" srcset="./images/karta.png">
                   <img src="./images/karta.png" alt="img" class="ml-9">
                </picture>
-               <p class="text-[16px] w-[219px] mt-2 ml-[37px]">Videokartalar
+               <p class="make text-[16px] w-[219px] mt-2 ml-[37px]">Videokartalar
                </p>
                <p class="text-[16px] mt-5 text-gray-500"> 453 ta maxsulot</p>
             </div>
          </div>
 
-         <div class="flex gap-[20px] mt-5">
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+         <div class="comp flex gap-[20px] mt-5">
+            <div class="card mart pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/intel@2x.png">
                   <source media="(max-width:768px)" srcset="./images/intel.png">
@@ -179,17 +182,17 @@
                <p class="text-[16px] mt-5 text-gray-500">321 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="card mard pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/block@2x.png">
                   <source media="(max-width:768px)" srcset="./images/block.png">
                   <img src="./images/block.png" alt="img" class="ml-9">
                </picture>
-               <p class="text-[16px] w-[219px] mt-2 ml-[37px]">Komyuter sovutish tizimi</p>
+               <p class="male text-[16px] w-[219px] mt-2 ml-[37px]">Komyuter sovutish tizimi</p>
                <p class="text-[16px] mt-5 text-gray-500">212 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="oq card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/cooler@2x.png">
                   <source media="(max-width:768px)" srcset="./images/cooler.png">
@@ -199,7 +202,7 @@
                <p class="text-[16px] mt-0 text-gray-500">432 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="oq card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/sumka@2x.png">
                   <source media="(max-width:768px)" srcset="./images/sumka.png">
@@ -210,7 +213,7 @@
             </div>
          </div>
 
-         <div class="flex gap-[20px] mt-5">
+         <div class="oq flex gap-[20px] mt-5">
             <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/key@2x.png">
@@ -221,7 +224,7 @@
                <p class="text-[16px] mt-5 text-gray-500">4560 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="oq card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/oq@2x.png">
                   <source media="(max-width:768px)" srcset="./images/oq.png">
@@ -231,7 +234,7 @@
                <p class="text-[16px] mt-0 text-gray-500">4560 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="oq card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/oq@2x.png">
                   <source media="(max-width:768px)" srcset="./images/oq.png">
@@ -242,7 +245,7 @@
                <p class="text-[16px] mt-5 text-gray-500">4560 ta maxsulot</p>
             </div>
 
-            <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
+            <div class="oq card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/oq@2x.png">
                   <source media="(max-width:768px)" srcset="./images/oq.png">
@@ -253,7 +256,7 @@
             </div>
          </div>
 
-         <div class="flex gap-[20px] mt-5">
+         <div class="oq flex gap-[20px] mt-5">
             <div class="card pt-5 text-center rounded-[10px] bg-white w-[293px] h-[290px]">
                <picture class="">
                   <source media="(max-width:350px)" srcset="./images/oq@2x.png">
@@ -277,9 +280,9 @@
       </section>
 
       <section class="mt-10 ml-[160px] text-[28px] font-medium">
-         <h2>Eng ko’p sotilgan</h2>
+         <h2 class="kop">Eng ko’p sotilgan</h2>
 
-         <div class="flex mt-5 gap-[19px]">
+         <div class="fil flex mt-5 gap-[19px]">
             <div class="card rounded-xl w-[230px] h-[390px] bg-white pt-[25px]">
                <span class="absolute ml-[185px] mt-[-20px]">
                   <i class='bx bx-heart font text-gray-300 active:text-red-600'></i>
@@ -405,9 +408,9 @@
          </div>
       </section>
 
-      <footer class="mt-[77px] h-[530px]">
-         <div class="flex gap-[84px]">
-            <div class="pt-[60px] ml-[155px] ">
+      <footer class="footer mt-[77px] h-[530px]">
+         <div class="foot flex gap-[84px]">
+            <div class="ent pt-[60px] ml-[155px] ">
                <h3 class="font-bold">Hujjatlar</h3>
                <ul>
                   <li class="mt-5"><a href="#">Umumiy shartlar</a></li>
@@ -417,7 +420,7 @@
                </ul>
             </div>
 
-            <div class="pt-[60px]">
+            <div class="end pt-[60px]">
                <h3 class="font-bold">Servis</h3>
                <ul>
                   <li class="mt-5"><a href="#">Do’konlar</a></li>
@@ -428,7 +431,7 @@
                </ul>
             </div>
 
-            <div class="pt-[60px]">
+            <div class="end pt-[60px]">
                <h3 class="font-bold">Mahsulotlar katalogi</h3>
                <ul>
                   <li class="mt-5"><a href="#">Katalog 1</a></li>
@@ -440,7 +443,7 @@
                </ul>
             </div>
 
-            <div class="pt-[60px] ml-[260px]">
+            <div class="end pt-[60px] ml-[260px]">
                <h3 class="font-bold mb-5">Axbarot xizmati</h3>
                <a href="mailto:nextstore@gmail.com">contact.@nextstore.uz</a>
                <br>
@@ -449,7 +452,7 @@
                <br>
                <a href="tel:+998955030909">+998955030909</a>
                <p class="text-[16px] w-[335px] mt-5">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</p>
-               <div class="mt-[27px] ">
+               <div class="com mt-[27px] ">
                   <picture class="">
                      <source media="(max-width:350px)" srcset="images/set@2x.png">
                      <source media="(max-width:768px)" srcset="./images/set.png">
@@ -458,11 +461,11 @@
                </div>
             </div>
          </div>
-         <div class="ml-[155px] mt-10">
+         <div class="com ml-[155px] mt-10">
             <hr class="w-[1240px]">
-            <div class="flex justify-between w-[1230px] mt-10">
+            <div class="pow flex justify-between w-[1230px] mt-10">
                <p>2022 Nextstore.com</p>
-               <p>Powered by </p>
+               <p class="by">Powered by </p>
             </div>
          </div>
       </footer>
