@@ -8,14 +8,14 @@
    <script src="https://cdn.tailwindcss.com"></script>
    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    <link rel="stylesheet" href="../css/style.min.css">
-   <title>Imtixon</title>
+   <title>Asosiy sahifa</title>
 </head>
 
 <body>
    <div class="conteiner w-[1600px] m-auto bg-blue-50">
-      <header class="bg-white fixed h-24 w-[1600px] sm:bg-non">
+      <header class="bg-white fixed h-24 w-[1600px] sm:h-32">
          <div class="">
-            <div class="flex ml-[1020px]">
+            <div class="bosh flex ml-[1020px]">
                <img src="./images/Vector.svg" alt="">
                <span class="ml-2 ">Aloqa uchun</span>
                <select aria-label="Изменить язык отображения" class="_aajm ml-56">
@@ -25,33 +25,36 @@
                </select>
             </div>
             <nav class="pt-4 ml-36 flex">
-               <picture class="">
+               <span class="burger">
+                  <i class='bx bx-menu'></i>
+               </span>
+               <picture class="logo">
                   <source media="(max-width:375px)" srcset="./images/Logo@2x.svg">
                   <source media="(max-width:768px)" srcset="./images/Logo.svg">
                   <img src="./images/Logo.svg" alt="img">
                </picture>
 
-               <button class="btn ml-[106px] mt-[-5px] text-white pt-3 pl-[21px] pr-[19px] pb-[13px] rounded-lg">
+               <button class="btn ml-[106px] mt-[-5px] pt-3 pl-[21px] pr-[19px] pb-[13px] rounded-lg">
                   <i class='bx bx-menu'></i>
                   <span class="ml-2">KATALOG</span>
                </button>
 
                <input type="search" placeholder="Maxsulotlarni izlash"
-                  class="ml-12 border rounded-lg h-11 w-[396px] pl-[18px]">
+                  class="input ml-12 border rounded-lg h-11 w-[396px] pl-[18px]">
 
-               <span class="bg-blue-600 absolute ml-[748px] w-[64px] h-[46px] mt-[2px] text-center rounded-r-lg pt-3">
+               <span class="lupa bg-blue-600 absolute ml-[748px] w-[64px] h-[46px] mt-[2px] text-center rounded-r-lg pt-3">
                   <i class='bx bx-search-alt-2' style='color:rgba(255, 255, 255, 0.989)'></i>
                </span>
 
-               <span class="bg-green-100 ml-20 p-[12px] pb-1 rounded-lg">
+               <span class="heart bg-green-100 ml-20 p-[12px] pb-1 rounded-lg">
                   <i class='bx bx-heart font text-blue-600 '></i>
                </span>
 
-               <span class="bg-green-100 ml-16 p-[12px] pb-1 rounded-lg">
+               <span class="heart bg-green-100 ml-16 p-[12px] pb-1 rounded-lg">
                   <i class='bx bx-cart font text-blue-600'></i>
                </span>
 
-               <button class="put px-[31px] rounded-lg ml-[59px]">Kirish</button>
+               <a href="./umumiy.html" class="put px-[31px] pt-[13px] rounded-lg ml-[59px]">Kirish</a>
             </nav>
          </div>
       </header>
